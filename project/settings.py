@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'christmaschecker',
+    'newyear',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['christmaschecker/templates'],
+        'DIRS': ['christmaschecker/templates','newyear/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

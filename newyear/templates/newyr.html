@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<link rel="stylesheet" href="{% static 'newyrstyle.css' %}">
+{% if christmas %}
+
+<h1>YES</h1>
+
+{% else %}
+<h1>NAH</h1>
+
+{% endif %}
+</body>
+</html>
